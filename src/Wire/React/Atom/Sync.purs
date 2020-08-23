@@ -2,7 +2,6 @@ module Wire.React.Atom.Sync where
 
 import Prelude
 import Effect (Effect)
-import Effect.Unsafe (unsafePerformEffect)
 import Wire.Signal (Signal)
 import Wire.Signal as Signal
 import Wire.React.Atom.Class (class Atom)

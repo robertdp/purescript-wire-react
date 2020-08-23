@@ -7,7 +7,7 @@ import Effect.Class (liftEffect)
 import Effect.Class.Console as Console
 import Wire.React.Atom.Class as Atom
 import Wire.React.Atom.Pure as Pure
-import Wire.React.Selector as Selector
+import Wire.React.Atom.Selector as Selector
 
 main :: Effect Unit
 main = do

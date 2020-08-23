@@ -1,9 +1,8 @@
-module Wire.React.Selector where
+module Wire.React.Atom.Selector where
 
 import Prelude
 import Control.Monad.Free (Free, liftF, runFreeM)
 import Effect (Effect)
-import Effect.Unsafe (unsafePerformEffect)
 import Wire.React.Atom.Class (class Atom)
 import Wire.React.Atom.Class as Class
 import Wire.Signal (Signal)
